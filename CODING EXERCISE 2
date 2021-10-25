@@ -1,0 +1,27 @@
+package numericData;
+
+public class Exercise2 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name = "MOHAMAD HAFIZAL BIN AHMAD FAUZI";
+		String matricnum = "KMK2003026";
+		String college = "KOLEJ MARA KULIM";
+		String course = "MATRIKULASI SAINS";
+		double sem1 = 3.17;
+		double sem2 = 3.33;
+		double cgpa = (sem1+sem2)/2;
+		 System.out.println ("NAME : "+name);
+		 System.out.println ("MATRIC NUMBER : "+matricnum);
+		 System.out.println ("COLLEGE : "+college);
+		 System.out.println ("COURSE : "+course);
+		 System.out.println ("SEMESTER 1 GPA : "+sem1);
+		 System.out.println ("SESMESTER 2 GPA : "+sem2);
+		 System.out.println ("CGPA : "+cgpa);
+		 
+		
+		
+
+	}
+
+}
