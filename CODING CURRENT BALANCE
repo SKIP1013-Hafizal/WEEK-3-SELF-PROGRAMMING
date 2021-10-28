@@ -1,0 +1,41 @@
+package numericData;
+
+import java.util.Scanner;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		double totalamount;
+		double withdraw;
+		char Y;
+		char N;
+		
+		Scanner scanMe = new Scanner(System.in); //scanMe is new object for scanner input
+		
+		System.out.print ("Please enter your name : ");
+		name = scanMe.nextLine();
+		System.out.print ("Please insert total balance : ");
+		totalamount = scanMe.nextDouble();
+		System.out.print ("Please enter withdraw amount : ");
+		withdraw = scanMe.nextDouble();
+		System.out.println ("Do you want to proceed ?");
+		Y = scanMe.next().charAt(0);
+		System.out.print ("YES");
+		N = scanMe.next().charAt(0);
+		System.out.print ("NO");
+		
+		double balance = totalamount-withdraw;
+		
+		System.out.println ("");
+		System.out.println ("Welcome " +name);
+		System.out.println ("Total amount in bank is : " + totalamount);
+		System.out.println ("Total current balance is : " + balance);
+		
+		
+
+	}
+
+}
+
