@@ -1,0 +1,48 @@
+package numericData;
+
+import java.util.Scanner; //Method scanner to prompt user
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		int number1;
+		int number2;
+		int number3;
+		int number4;
+		int number5;
+		int number6;
+		
+		Scanner scanMe = new Scanner(System.in); //scanMe is new object for scanner input
+		
+		System.out.print ("Please enter your name : ");
+		name = scanMe.nextLine();
+		System.out.print ("Please enter first amount : ");
+		number1 = scanMe.nextInt();
+		System.out.print ("Please enter second amount : ");
+		number2 = scanMe.nextInt();
+		System.out.print ("Please enter third amount : ");
+		number3 = scanMe.nextInt();
+		System.out.print ("Please enter fourth amount : ");
+		number4 = scanMe.nextInt();
+		System.out.print ("Please enter fifth amount : ");
+		number5 = scanMe.nextInt();
+		System.out.print ("Please enter sixth amount : ");
+		number6 = scanMe.nextInt();
+		
+		int sum = number1+number2+number3+number4+number5+number6;
+		
+		System.out.println ("");
+		System.out.println ("Welcome " +name);
+		System.out.println ("The first amount : "+ number1);
+		System.out.println ("The second amount : "+ number2);
+		System.out.println ("The third amount : "+ number3);
+		System.out.println ("The fourth amount : "+ number4);
+		System.out.println ("The fifth amount : "+ number5);
+		System.out.println ("The sixth amount : "+ number6);
+		System.out.println ("The total amount : "+ sum);
+
+	}
+
+}
